@@ -1,7 +1,7 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import User from "../models/user.model";
-import db from "../config/db";
+import User from "../models/user.model.js";
+import db from "../config/db.js";
 
 // Utility to generate JWT
 const generateToken = (id) => {
